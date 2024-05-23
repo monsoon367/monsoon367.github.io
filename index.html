@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katik_Calculator</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <div class="welcome_header">
+            <h1 id="top">Welcome to My Calculator</h1>
+            <li>
+                <p>Hai sobat, selamat datang di My Calculator :]</p>
+                <p>Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling segitiga.</p>
+            </li>     
+        </div>
+        <hr>
+        <div class="nav">
+            <a href="#luas">Luas Segitiga</a>
+            <a href="#keliling">Keliling Segitiga</a>
+        </div>
+    </header>
+    <hr>
+
+    <!--Luas Header-->
+    <div class="container">
+        <div class="containerheader">
+            <h1 id="luas" class="headsegitiga">Luas Segitiga</h1>
+            <img src="/asset/gambar-segitiga.png" alt="Segitiga" class="imgsegitiga">
+        </div>
+        <div class="rumusexplain">
+            <p class="explaintexs">Rumus Luas Segitiga yaitu:</p>
+            <p class="formula">L = 1/2 x a x t</p>
+            <p class="explaintexs">Dimana :</p>
+            <ul class="details">
+                <li>L = Luas Segitiga (cm<sup>2</sup>)</li>
+                <li>a = Panjang Alas Segitiga (cm)</li>
+                <li>t = Tinggi Segitiga (cm)</li>
+        </div>
+        <hr>
+        <!--menghitung Luas-->
+        <div class="rumus">
+            <h1 class="mari">Menghitung Luas Segitiga</h1>
+
+            <ul class="rumus_container">
+                <label for="">alas segitiga</label><br>
+                <input type="number" id="alas" class="S"><br>
+                <label for="">tinggi segitiga</label><br>
+                <input type="number" id="tinggi" class="S"><br>
+                <p class="warning">Note : Please insert all numbers before you press the "hitung" button!</p>
+                <button id="hitung" class="hitung">Hitung</button><br>
+                <p id="output_rumus" class="result"></p><br>
+                <p id="output_isi" class="result"></p><br>
+                <p id="output" class="result"></p><br>
+                <button id="reset" class="reset">Reset</button>
+            </ul>
+        </div>
+    </div>
+     <hr>
+     
+
+     <!--Luas Header-->
+     <div class="container">
+        <div>
+            <h1 id="keliling" class="headsegitiga">Keliling Segitiga</h1>
+            <img src="/asset/gambar-segitiga.png" alt="Segitiga" class="imgsegitiga">
+        </div>
+        <div class="rumusexplain">
+            <p class="explaintexs">Rumus Keliling Segitiga yaitu :</p>
+            <p class="formula">K = S1 + S2 + S3</p>
+            <p class="explaintexs">Dimana :</p>
+            <ul class="details">
+                <li>S1 = Sisi A</li>
+                <li>S2 = Sisi B</li>
+                <li>S3 = Sisi C</li>
+        </div>
+        <hr>
+    <!--menghitung Keliling-->
+    <div class="container">
+        <div class="rumus">
+            <h1 class="mari">Menghitung Keliling Segitiga</h1>
+
+            <ul class="rumus_container">
+                <label for="">S1</label><br>
+                <input type="number" id="s1" class="S"><br>
+                <label for="">S2</label><br>
+                <input type="number" id="s2" class="S"><br>
+                <label for="">S3</label><br>
+                <input type="number" id="s3" class="S"><br>
+                <p class="warning">Note : Please insert all numbers before you press the "hitung" button!</p>
+                <button id="hitungkeliling" class="hitung">Hitung</button><br>
+                <p id="outputkeliling_rumus" class=" result"></p><br>
+                <p id="outputkeliling_isi" class=" result"></p><br>
+                <p id="outputkeliling" class=" result"></p><br>
+                <button id="resetkeliling" class="reset">Reset</button><br>
+                <button id="resetall" class="reset_all">Reset All</button><br>
+            </ul>
+        </div>
+    </div>
+    
+    <hr>
+    <div class="nav">
+        <a href="#luas">Luas Segitiga</a>
+            <a href="#keliling">Keliling Segitiga</a>
+    </div>
+    <hr>
+    <p class="sus_P">End of the page, there's nothing down there?</p>
+
+    
+
+
+
+    <p class="warn">there's nothing down there, stop scrolling!</p>
+    <div class="Easter">
+        <h4>Made by : Naufal</h4>
+        <p>I tell ya, didn't i :]</p>
+        <p>See ya on</p>
+        <a href="#top">Top</a>
+    </div>
+    <hr>
+    
+
+    <!--js_link-->
+    <script src="/js/script.js"></script>
+
+</body>
+</html>
